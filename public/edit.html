@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homepage</title>
+  <!-- start:stylesheets -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- end:/stylesheets -->
+</head>
+
+<body>
+<!-- start:header -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Pretest</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Category</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+              Profile
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="login.html">Logout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- end:/header -->
+
+<div class="content">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-6">
+      <form>
+        <div class="form-group">
+          <label>Nama Product</label>
+          <input type="text" class="form-control" placeholder="Nama">
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea rows="4" class="form-control" placeholder="Description"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Ingredient</label>
+          <input type="text" class="form-control" placeholder="ingredient">
+        </div>
+        <div class="form-group">
+          <label>Measurement</label>
+          <input type="text" class="form-control" placeholder="measurement">
+        </div>
+        <div class="form-group">
+          <label>cm</label>
+          <input type="number" class="form-control" placeholder="cm">
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- start:javascripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/style.js"></script>
+<!-- end:/javascripts -->
+</body>
+
+</html>
