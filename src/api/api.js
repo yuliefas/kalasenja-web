@@ -65,7 +65,7 @@ class Api {
     return this.http
       .get(url, {
         headers: {
-          'x-auth-token': localStorage.getItem('user-token'),
+          'Authorization': localStorage.getItem('user-token'),
         },
         ...rest, 
       })
@@ -77,7 +77,7 @@ class Api {
     return this.http
       .delete(url, {
         headers: {
-          'x-auth-token': localStorage.getItem('user-token'),
+          'Authorization': localStorage.getItem('user-token'),
         },
         ...rest,
       })
@@ -89,7 +89,7 @@ class Api {
     return this.http
       .post(url, body, {
         headers: {
-          'x-auth-token': localStorage.getItem('user-token'),
+          'Authorization': localStorage.getItem('user-token'),
         },
         ...rest,
       })
@@ -103,7 +103,7 @@ class Api {
     return this.http
       .put(url, body, {
         headers: {
-          'x-auth-token': localStorage.getItem('user-token'),
+          'Authorization': localStorage.getItem('user-token'),
         },
         ...rest,
       })

@@ -4,6 +4,7 @@ import createLogger from 'vuex/dist/logger'
 
 import global from './modules/global'
 import auth from './modules/auth'
+import product from './modules/product'
 
 
 Vue.use(Vuex);
@@ -20,6 +21,7 @@ export default new Vuex.Store({
   modules: {
     auth,
     global,
+    product
   },
   data() {
     return {

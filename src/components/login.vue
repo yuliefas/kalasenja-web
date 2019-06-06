@@ -1,11 +1,11 @@
 <template>
   <!-- start:main content -->
   <div class="main-content" id="page_login">
-    <div class="row">
+    <div class="row justify-content-md-center">
       <!-- <BackgroundLogin/> -->
 
-      <div class="col-lg pad-right-0 align-self-center">
-        <div class="block">
+      <div class="col-sm-4">
+        <div class="content">
           <div class="block__header">
             <h4>Log In</h4>
             
@@ -38,13 +38,14 @@
                 <!-- <p class="validation-error" v-for="(item, index) in validation.password" :key="index">{{item}}</p> -->
               </div>
               <div class="form-group margin-top-3">
-                <button type="submit" class="btn btn--primary btn-block">Login</button>
+                <button type="submit" class="btn btn-primary">Login</button>
               </div>
             </form>
           </div>
         </div>
-      </div>
     </div>
+      </div>
+
   </div>
   <!-- end:/main content -->
 </template>

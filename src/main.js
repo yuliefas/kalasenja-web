@@ -23,6 +23,11 @@ Vue.use(NProgress);
 window.$ = require('jquery');
 window.JQuery = require('jquery');
 
+// register global component
+import Pagination from './commons/Pagination.vue';
+
+Vue.component('Pagination', Pagination);
+
 /**
  * Init all middleware into main
  * so we can call destructor middlewares

@@ -12,15 +12,15 @@ export default {
       login: '/api/v1/auth',
     },
     me: {
-      index: '/api/v1/me'
+      root: '/api/v1/me'
     },
     category: {
-      index: '/api/v1/category',
+      root: '/api/v1/category',
       detail: '/api/v1/category/:id',
     },
     product: {
-      index: '/api/v1/category',
-      detail: '/api/v1/category/:id',
+      root: '/api/v1/product',
+      detail: '/api/v1/product/:id',
     },
   },
 }

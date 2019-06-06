@@ -30,6 +30,7 @@ export default {
       // state.status = false
       state.token = false
       state.isAuthenticate = false
+      state.userLogin = false
       localStorage.clear();
     },
   },
